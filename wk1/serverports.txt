@@ -1,0 +1,17 @@
+1. A web server port are the endpoints of a network connection being used to exchange information between web server and web client. 
+These ports gbet assigned unique numbers. 
+
+2. 0-65535.
+
+3.16 bits.
+
+4. HTTP – Port 80
+HTTPS – 443
+FTP – 21
+FTPS / SSH – 22
+POP3 – 110
+POP3 SSL – 995
+IMAP – 143
+IMAP SSL – 993s
+cPanel – 2082
+MySQL – 3306
