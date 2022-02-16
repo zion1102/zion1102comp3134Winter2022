@@ -1,0 +1,47 @@
+1. root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap apple.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-02-16 21:27 UTC
+Nmap scan report for apple.com (17.253.144.10)
+Host is up (0.011s latency).
+rDNS record for 17.253.144.10: apple.fr
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.30 seconds
+
+
+2.root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 1000 apple.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-02-16 21:29 UTC
+Nmap scan report for apple.com (17.253.144.10)
+Host is up (0.011s latency).
+rDNS record for 17.253.144.10: asia.apple.com
+
+PORT     STATE    SERVICE
+1000/tcp filtered cadlock
+
+Nmap done: 1 IP address (1 host up) scanned in 0.37 seconds
+
+
+3. root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 1000-5000 apple.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-02-16 21:30 UTC
+Nmap scan report for apple.com (17.253.144.10)
+Host is up (0.011s latency).
+rDNS record for 17.253.144.10: advertising.apple.com
+All 4001 scanned ports on apple.com (17.253.144.10) are filtered
+
+Nmap done: 1 IP address (1 host up) scanned in 81.43 seconds
+
+4. root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -F apple.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-02-16 21:36 UTC
+Nmap scan report for apple.com (17.253.144.10)
+Host is up (0.011s latency).
+rDNS record for 17.253.144.10: advertising.apple.com
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.92 seconds
+
+

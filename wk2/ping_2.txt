@@ -1,0 +1,12 @@
+C:\Users\zionh>ping 68.183.206.167
+
+Pinging 68.183.206.167 with 32 bytes of data:
+Reply from 68.183.206.167: bytes=32 time=42ms TTL=53
+Reply from 68.183.206.167: bytes=32 time=43ms TTL=53
+Reply from 68.183.206.167: bytes=32 time=42ms TTL=53
+Reply from 68.183.206.167: bytes=32 time=42ms TTL=53
+
+Ping statistics for 68.183.206.167:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 42ms, Maximum = 43ms, Average = 42ms

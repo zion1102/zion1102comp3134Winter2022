@@ -1,0 +1,26 @@
+1. thehideoutclothing.com
+23.227.38.74
+
+2.apple.com
+Domain Name Server IP 17.253.144.10
+
+3. youtube.com
+Domain Name Server IP: 173.194.213.136
+
+Domain Name Server IP: 173.194.213.190
+
+Domain Name Server IP: 173.194.213.91
+
+Domain Name Server IP: 173.194.213.93
+
+4.fullsend.com
+Domain Name Server IP: 23.227.38.32
+
+5.twitch.tv
+Domain Name Server IP: 151.101.2.167
+
+Domain Name Server IP: 151.101.194.167
+
+Domain Name Server IP: 151.101.66.167
+
+Domain Name Server IP: 151.101.130.167
